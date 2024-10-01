@@ -3,10 +3,25 @@
   <head>
     <title>JavaScript Sandbox</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
 
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h3>Calculadora 4 operações</h3>
+      <form>
+        <input type="number" id="numero1" placeholder="digite nº1" /><br />
+        <input type="number" id="numero2" placeholder="digite nº2" /><br />
+        <button id="btn-calcular">calcular</button>
+      </form>
+      <!-- começo do bloco de resultados -->
+      <div class="resultados">
+        <p class="soma">A soma é: 10</p>
+        <p class="subtracao">A subitração é: 0</p>
+        <p class="mutiplicacao">A multiplicação é: 25</p>
+        <p class="divisao">A divisão é: 1</p>
+      </div>
+    </div>
 
     <script src="./index.mjs" type="module"></script>
   </body>

@@ -1,3 +1,21 @@
 body {
   font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #e2e2e2;
+}
+
+#app {
+  background-color: #f59df8;
+  border: #ff87f9 1px solid;
+  padding: 20px;
+  border-radius: 8px;
+}
+input {
+  margin: 8px 0;
+  padding: 8px;
+}
+btn-cacular {
+  background-color: #f59df8;
 }
